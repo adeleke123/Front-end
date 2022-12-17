@@ -8,4 +8,4 @@ Headers are usually used to contain all the heading tags h1-h6.
 
 ## Task:
 
-Create an <header> </header> section in the body of the HTML document with the following text: `“This is the header”`
+Create an <header> </header> section in the body of the HTML document with the following text: `This is the header`
