@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+
+#clean-board {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#black-spot {
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+    /*background-color: black;*/
+}
+
+/*
+This is CSS file that specifies the styles for an HTML document.
+
+The first rule applies styles to the <body> element. The display property is set to flex, which tells the browser to display the element as a flexible container. The flex-direction property is set to column, which tells the browser to stack the elements inside the container vertically. The align-items property is set to center, which tells the browser to align the items inside the container along the horizontal axis. The padding property is set to 5rem 0rem, which adds a top and bottom padding of 5 times the font size of the root element.
+
+The next rule applies styles to the <div> element with an id attribute set to clean-board. The width and height properties are set to 200 pixels, and the border property is set to 2px solid black, which adds a 2-pixel solid black border around the element.
+
+The final rule applies styles to the <div> element with an id attribute set to black-spot. The height and width properties are set to 20 pixels, and the margin property is set to 20px, which adds a 20-pixel margin around the element. There is also a commented-out background-color property with a value of black, which would set the background color of the element to black if it were not commented out.
+
+*/
