@@ -1,0 +1,19 @@
+#outer-container {
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+  position: relative;
+  /*   Write code here  */
+  
+}
+
+#inner-container {
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+  position: absolute;
+  /*   Write code here  */
+  
+}
