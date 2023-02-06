@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #a {
+        position: absolute;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="a" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7aNYHFYt_dxg0hazE2QOUu1anWZszEWICwcm2YOXFM_cbgFU&s" width="100" height="140">
+    <p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+    <!-- Don't remove this mocha file -->
+    <div id="mocha"></div>
+    <script type="module" src="./src/setup.js"></script>
+    <script type="module" src="./src/run.js"></script>
+  </body>
+</html>
+
