@@ -1,29 +1,25 @@
-body {
-  margin: 0;
-}
-* {
-  box-sizing: border-box;
-}
-#b {
-  background-color: coral;
-  width: 200px;
-  height: 65px;
-  border: 1px solid black;
-  overflow: hidden;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-.column:nth-child(2) {
-  display: none;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="column">
+        <h2>Column</h2>
+        <p id="b">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+          amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget
+          elementum magna tristique. Quisque vehicula, risus eget aliquam
+          placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+          Praesent scelerisque tortor sed accumsan convallis.
+        </p>
+      </div>
+    <!-- Don't remove this mocha file -->
+    <div id="mocha"></div>
+   <script type="module" src="./src/setup.js"></script>
+    <script type="module" src="./src/run.js"></script>
+  </body>
+</html>
 
