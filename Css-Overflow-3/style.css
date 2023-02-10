@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+#c {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
