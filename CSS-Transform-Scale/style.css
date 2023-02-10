@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#inside {
+    background-color: plum;
+    height: 150px;
+    width: 150px;
+    /* use transform scale to 2x both height(x) and width(y) of this div */
+    transform: scale(2);
+}
