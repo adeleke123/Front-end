@@ -1,0 +1,10 @@
+body{
+  background-color: black;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  color: #C4E4FC;
+}
